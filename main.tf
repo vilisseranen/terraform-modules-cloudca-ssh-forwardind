@@ -6,9 +6,9 @@ resource "cloudca_public_ip" "ssh_public" {
 resource "cloudca_port_forwarding_rule" "ssh_forwarding" {
   environment_id = "${var.environment_id}"
 
-  public_ip_id = "${cloudca_public_ip.ssh_public.id}"
-  public_port_start = 22
-  private_ip_id = "${var.private_ip_id}"
+  public_ip_id       = "${cloudca_public_ip.ssh_public.id}"
+  public_port_start  = 22
+  private_ip_id      = "${var.private_ip_id}"
   private_port_start = 22
-  protocol = "TCP"
+  protocol           = "TCP"
 }
