@@ -11,12 +11,12 @@ The module creates 2 resources:
 ## Variables
 
 The module takes 3 variables:
-- a cloudca\_environment.id as `environment\_id`
+- a cloudca\_environment.id as `environment_id`
 - a cloudca\_vpc.id as `vpc_id`
-- a cloudca\_instance.private\_ip\_id as `private\_ip`
+- a cloudca\_instance.private\_ip\_id as `private_ip`
 
 ## Outputs
 
 The module outputs 2 values:
-- a cloudca\_public\_ip.id as `public\_ip\_id`
-- a cloudca\_public\_ip.ip\_address as `public\_ip\_address`
+- a cloudca\_public\_ip.id as `public_ip_id`
+- a cloudca\_public\_ip.ip\_address as `public_ip_address`
